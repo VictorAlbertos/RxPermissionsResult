@@ -14,10 +14,25 @@
  * limitations under the License.
  */
 
-package io.victoralbertos.common.internal;
+package io.victoralbertos.rx2_permissions_result.internal;
 
-import java.io.Serializable;
+public class Request {
+  private final String[] permissions;
+  private OnResult onResult;
 
-public interface OnResult extends Serializable {
-  void response(String permissions[], int[] grantResults);
+  public Request(String... permissions) {
+    this.permissions = permissions;
+  }
+
+  public void setOnResult(OnResult onResult) {
+    this.onResult = onResult;
+  }
+
+  public OnResult onResult() {
+    return onResult;
+  }
+
+  public String[] permissions() {
+    return permissions;
+  }
 }

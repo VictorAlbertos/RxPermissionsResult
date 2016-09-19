@@ -14,25 +14,9 @@
  * limitations under the License.
  */
 
-package io.victoralbertos.common.internal;
+package io.victoralbertos.rx1_permissions_result.internal;
 
-public class Request {
-  private final String[] permissions;
-  private OnResult onResult;
-
-  public Request(String... permissions) {
-    this.permissions = permissions;
-  }
-
-  public void setOnResult(OnResult onResult) {
-    this.onResult = onResult;
-  }
-
-  public OnResult onResult() {
-    return onResult;
-  }
-
-  public String[] permissions() {
-    return permissions;
-  }
+public interface Locale {
+  String RX_PERMISSIONS_RESULT_NOT_REGISTER =
+      "You must call RxPermissionsResult.register(application) before attempting to use startIntent";
 }

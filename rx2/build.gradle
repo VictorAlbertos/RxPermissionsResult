@@ -21,7 +21,6 @@ android {
 }
 
 dependencies {
-  compile project(":common")
   compile 'io.reactivex.rxjava2:rxjava:2.0.0-RC2'
   compile 'com.android.support:appcompat-v7:24.2.0'
 }

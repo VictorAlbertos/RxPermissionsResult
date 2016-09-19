@@ -26,12 +26,11 @@ import android.support.v4.app.FragmentManager;
 import io.reactivex.Observable;
 import io.reactivex.functions.Consumer;
 import io.reactivex.subjects.PublishSubject;
-import io.victoralbertos.common.Result;
-import io.victoralbertos.common.internal.Locale;
-import io.victoralbertos.common.internal.OnResult;
-import io.victoralbertos.common.internal.Request;
-import io.victoralbertos.common.internal.ShadowActivity;
 import io.victoralbertos.rx2_permissions_result.internal.ActivitiesLifecycleCallbacks;
+import io.victoralbertos.rx2_permissions_result.internal.Locale;
+import io.victoralbertos.rx2_permissions_result.internal.OnResult;
+import io.victoralbertos.rx2_permissions_result.internal.Request;
+import io.victoralbertos.rx2_permissions_result.internal.ShadowActivity;
 import java.util.List;
 
 public class RxPermissionsResult {

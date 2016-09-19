@@ -14,9 +14,10 @@
  * limitations under the License.
  */
 
-package io.victoralbertos.common.internal;
+package io.victoralbertos.rx1_permissions_result.internal;
 
-public interface Locale {
-  String RX_PERMISSIONS_RESULT_NOT_REGISTER =
-      "You must call RxPermissionsResult.register(application) before attempting to use startIntent";
+import java.io.Serializable;
+
+public interface OnResult extends Serializable {
+  void response(String permissions[], int[] grantResults);
 }

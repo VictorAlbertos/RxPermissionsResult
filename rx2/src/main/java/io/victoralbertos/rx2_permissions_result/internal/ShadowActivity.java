@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package io.victoralbertos.common.internal;
+package io.victoralbertos.rx2_permissions_result.internal;
 
 import android.app.Activity;
 import android.os.Bundle;

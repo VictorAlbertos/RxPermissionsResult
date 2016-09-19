@@ -1,1 +1,1 @@
-include ':sample-rx1', ':rx1', ':common', ':rx2', ':sample-rx2'
+include ':sample-rx1', ':rx1', ':rx2', ':sample-rx2'

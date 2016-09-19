@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package io.victoralbertos.common;
+package io.victoralbertos.rx2_permissions_result;
 
 public class Result<T> {
   private final T targetUI;

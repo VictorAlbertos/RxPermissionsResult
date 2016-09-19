@@ -6,7 +6,7 @@
       android:supportsRtl="true">
 
     <activity
-        android:name="io.victoralbertos.common.internal.ShadowActivity"
+        android:name="io.victoralbertos.rx2_permissions_result.internal.ShadowActivity"
         android:configChanges="orientation|keyboardHidden|screenSize"
         android:theme="@style/Theme.Transparent" />
 
