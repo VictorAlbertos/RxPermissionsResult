@@ -74,7 +74,7 @@ This method returns a safety instance of the current `Activity`/`Fragment`. Beca
 
 Instead, you must call any method/variable of your `Activity`/`Fragment` from this instance encapsulated in the `Result` object.
 
-For a complete example about RxPermissionsResult, refer to this [module](https://github.com/VictorAlbertos/RxPermissionsResult/sample-rx1) if you are using RxJava1, or to [this]((https://github.com/VictorAlbertos/RxPermissionsResult/sample-rx2)) other one if using RxJava2. 
+For a complete example about RxPermissionsResult, refer to this [module](https://github.com/VictorAlbertos/RxPermissionsResult/tree/master/rx1) if you are using RxJava1, or to [this](https://github.com/VictorAlbertos/RxPermissionsResult/tree/master/rx2) other one if using RxJava2. 
 
 ## Another author's libraries:
 * [ReactiveCache](https://github.com/VictorAlbertos/ReactiveCache): A reactive cache for Android and Java which honors the Observable chain.
