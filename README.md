@@ -1,3 +1,5 @@
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-RxPermissionsResult-brightgreen.svg?style=flat)](http://android-arsenal.com/details/1/4376)
+
 # RxPermissionsResult
 
 Following the same approach that [RxActivityResult](https://github.com/VictorAlbertos/RxActivityResult) does, RxPermissionsResult is a reactive wrapper around the permission's Android Api, which allows to get the data without breaking the observable chain. 
