@@ -41,5 +41,5 @@ android {
 dependencies {
   compile project(':rx2')
   compile 'com.android.support:appcompat-v7:24.2.0'
-  compile 'com.github.VictorAlbertos:RxLifecycleInterop:0.0.2'
+  compile 'com.github.VictorAlbertos:RxLifecycleInterop:0.0.4'
 }
