@@ -22,12 +22,12 @@ Add to app module *gradle.build* file
 ```gradle
 dependencies {
 	//RxJava1
-    compile 'com.github.VictorAlbertos:RxPermissionsResult:rx1:0.0.3'
-    compile 'io.reactivex:rxjava:1.1.10'
+    compile 'com.github.VictorAlbertos:RxPermissionsResult:rx1:0.0.4'
+    compile 'io.reactivex:rxjava:1.2.1'
 
 	//RxJava2
-    compile 'com.github.VictorAlbertos:RxPermissionsResult:rx2:0.0.3'
-    compile 'io.reactivex.rxjava2:rxjava:2.0.0-RC2'
+    compile 'com.github.VictorAlbertos:RxPermissionsResult:rx2:0.0.4'
+    compile 'io.reactivex.rxjava2:rxjava:2.0.0'
 }
 ```
 
