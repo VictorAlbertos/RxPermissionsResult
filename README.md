@@ -1,3 +1,7 @@
+:warning: This repository is deprecated :warning: 
+
+You should use https://github.com/tbruyelle/RxPermissions
+
 [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-RxPermissionsResult-brightgreen.svg?style=flat)](http://android-arsenal.com/details/1/4376)
 
 # RxPermissionsResult
